@@ -3,9 +3,9 @@
 require 'rails_helper'
 
 RSpec.describe TrackJob, type: :active_job do
-  subject { described_class.perform_now(tracking_id, tracking_info) }
+  subject { described_class.perform_now(track_id, tracking_info) }
 
-  let(:tracking_id) { '123456789' }
+  let(:track_id) { '123456789' }
   let(:tracking_info) do
     [
       { tracking_number: '000000000000001', carrier: 'FEDEX' },
@@ -34,7 +34,7 @@ RSpec.describe TrackJob, type: :active_job do
         { tracking_number: '000000000000001', status: 'DELIVERED', message: 'Delivered' },
         { tracking_number: '000000000000002', status: 'ON_TRANSIT', message: 'In transit' },
       ])
-    allow(TrackerResponder).to receive(:send_results).with(tracking_id, expected_tracking_info).
+    allow(TrackerResponder).to receive(:send_results).with(track_id, expected_tracking_info).
       and_return(nil)
   end
 
