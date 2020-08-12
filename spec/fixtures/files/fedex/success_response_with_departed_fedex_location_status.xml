@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrackReply xmlns="http://fedex.com/ws/track/v6">
+  <HighestSeverity>SUCCESS</HighestSeverity>
+  <Notifications>
+    <Severity>SUCCESS</Severity>
+    <Source>trck</Source>
+    <Code>0</Code>
+    <Message>Request was successfully processed.</Message>
+    <LocalizedMessage>Request was successfully processed.</LocalizedMessage>
+  </Notifications>
+  <Version>
+    <ServiceId>trck</ServiceId>
+    <Major>6</Major>
+    <Intermediate>0</Intermediate>
+    <Minor>0</Minor>
+  </Version>
+  <DuplicateWaybill>false</DuplicateWaybill>
+  <MoreData>false</MoreData>
+  <TrackDetails>
+    <Notification>
+      <Severity>SUCCESS</Severity>
+      <Source>trck</Source>
+      <Code>0</Code>
+      <Message>Request was successfully processed.</Message>
+      <LocalizedMessage>Request was successfully processed.</LocalizedMessage>
+    </Notification>
+    <TrackingNumber>000000000000001</TrackingNumber>
+    <TrackingNumberUniqueIdentifier>12013~000000000000001~FDEG</TrackingNumberUniqueIdentifier>
+    <StatusCode>DP</StatusCode>
+    <StatusDescription>Departed FedEx location</StatusDescription>
+    <ServiceCommitMessage>No scheduled delivery date available at this time.</ServiceCommitMessage>
+    <CarrierCode>FDXG</CarrierCode>
+    <OtherIdentifiers>
+      <Value>4631962</Value>
+      <Type>CUSTOMER_REFERENCE</Type>
+    </OtherIdentifiers>
+    <OtherIdentifiers>
+      <Value>McGee</Value>
+      <Type>DEPARTMENT</Type>
+    </OtherIdentifiers>
+    <OtherIdentifiers>
+      <Value>3385158</Value>
+      <Type>PURCHASE_ORDER</Type>
+    </OtherIdentifiers>
+    <OtherIdentifiers>
+      <Value>THE HOUSE</Value>
+      <Type>GROUND_SHIPMENT_ID</Type>
+    </OtherIdentifiers>
+    <ServiceInfo>FedEx Home Delivery</ServiceInfo>
+    <ServiceType>GROUND_HOME_DELIVERY</ServiceType>
+    <PackageWeight>
+      <Units>LB</Units>
+      <Value>5.3</Value>
+    </PackageWeight>
+    <PackageDimensions>
+      <Length>15</Length>
+      <Width>10</Width>
+      <Height>7</Height>
+      <Units>IN</Units>
+    </PackageDimensions>
+    <Packaging>Package</Packaging>
+    <PackagingType>YOUR_PACKAGING</PackagingType>
+    <PackageSequenceNumber>1</PackageSequenceNumber>
+    <PackageCount>1</PackageCount>
+    <ShipperAddress>
+      <City>SAINT PAUL</City>
+      <StateOrProvinceCode>MN</StateOrProvinceCode>
+      <CountryCode>US</CountryCode>
+      <Residential>false</Residential>
+    </ShipperAddress>
+    <OriginLocationAddress>
+      <City>SAINT PAUL</City>
+      <StateOrProvinceCode>MN</StateOrProvinceCode>
+      <CountryCode>US</CountryCode>
+      <Residential>false</Residential>
+    </OriginLocationAddress>
+    <ShipTimestamp>2018-08-15T00:00:00</ShipTimestamp>
+    <DestinationAddress>
+      <City>PRINCETON</City>
+      <StateOrProvinceCode>WV</StateOrProvinceCode>
+      <CountryCode>US</CountryCode>
+      <Residential>false</Residential>
+    </DestinationAddress>
+    <SignatureProofOfDeliveryAvailable>false</SignatureProofOfDeliveryAvailable>
+    <RedirectToHoldEligibility>INELIGIBLE</RedirectToHoldEligibility>
+    <Events>
+      <Timestamp>2014-01-07T04:11:05-06:00</Timestamp>
+      <EventType>DP</EventType>
+      <EventDescription>Departed FedEx location</EventDescription>
+      <Address>
+        <City>SAINT PAUL</City>
+        <StateOrProvinceCode>MN</StateOrProvinceCode>
+        <PostalCode>55115</PostalCode>
+        <CountryCode>US</CountryCode>
+        <Residential>false</Residential>
+      </Address>
+      <ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+    </Events>
+    <Events>
+      <Timestamp>2014-01-07T00:37:00-06:00</Timestamp>
+      <EventType>AR</EventType>
+      <EventDescription>Arrived at FedEx location</EventDescription>
+      <Address>
+        <City>SAINT PAUL</City>
+        <StateOrProvinceCode>MN</StateOrProvinceCode>
+        <PostalCode>55115</PostalCode>
+        <CountryCode>US</CountryCode>
+        <Residential>false</Residential>
+      </Address>
+      <ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+    </Events>
+    <Events>
+      <Timestamp>2014-01-06T18:41:00-06:00</Timestamp>
+      <EventType>PU</EventType>
+      <EventDescription>Picked up</EventDescription>
+      <Address>
+        <City>SAINT PAUL</City>
+        <StateOrProvinceCode>MN</StateOrProvinceCode>
+        <PostalCode>55115</PostalCode>
+        <CountryCode>US</CountryCode>
+        <Residential>false</Residential>
+      </Address>
+      <ArrivalLocation>PICKUP_LOCATION</ArrivalLocation>
+    </Events>
+    <Events>
+      <Timestamp>2014-01-05T14:40:00-06:00</Timestamp>
+      <EventType>OC</EventType>
+      <EventDescription>Shipment information sent to FedEx</EventDescription>
+      <Address>
+        <PostalCode>55117</PostalCode>
+        <CountryCode>US</CountryCode>
+        <Residential>false</Residential>
+      </Address>
+      <ArrivalLocation>CUSTOMER</ArrivalLocation>
+    </Events>
+  </TrackDetails>
+</TrackReply>

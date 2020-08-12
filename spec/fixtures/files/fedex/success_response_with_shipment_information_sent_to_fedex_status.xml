@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrackReply xmlns="http://fedex.com/ws/track/v6">
+  <HighestSeverity>SUCCESS</HighestSeverity>
+  <Notifications>
+    <Severity>SUCCESS</Severity>
+    <Source>trck</Source>
+    <Code>0</Code>
+    <Message>Request was successfully processed.</Message>
+    <LocalizedMessage>Request was successfully processed.</LocalizedMessage>
+  </Notifications>
+  <Version>
+    <ServiceId>trck</ServiceId>
+    <Major>6</Major>
+    <Intermediate>0</Intermediate>
+    <Minor>0</Minor>
+  </Version>
+  <DuplicateWaybill>false</DuplicateWaybill>
+  <MoreData>false</MoreData>
+  <TrackDetails>
+    <Notification>
+      <Severity>SUCCESS</Severity>
+      <Source>trck</Source>
+      <Code>0</Code>
+      <Message>Request was successfully processed.</Message>
+      <LocalizedMessage>Request was successfully processed.</LocalizedMessage>
+    </Notification>
+    <TrackingNumber>000000000000001</TrackingNumber>
+    <TrackingNumberUniqueIdentifier>12013~000000000000001~FDEG</TrackingNumberUniqueIdentifier>
+    <StatusCode>OC</StatusCode>
+    <StatusDescription>Shipment information sent to FedEx</StatusDescription>
+    <ServiceCommitMessage>
+      Shipping label has been created. The status will be updated when shipment begins to travel.
+    </ServiceCommitMessage>
+    <CarrierCode>FDXG</CarrierCode>
+    <OtherIdentifiers>
+      <Value>115380173</Value>
+      <Type>CUSTOMER_REFERENCE</Type>
+    </OtherIdentifiers>
+    <OtherIdentifiers>
+      <Value>DMWsGWdnN</Value>
+      <Type>GROUND_SHIPMENT_ID</Type>
+    </OtherIdentifiers>
+    <ServiceInfo>FedEx Home Delivery</ServiceInfo>
+    <ServiceType>GROUND_HOME_DELIVERY</ServiceType>
+    <PackageWeight>
+      <Units>LB</Units>
+      <Value>3.0</Value>
+    </PackageWeight>
+    <PackageDimensions>
+      <Length>14</Length>
+      <Width>11</Width>
+      <Height>5</Height>
+      <Units>IN</Units>
+    </PackageDimensions>
+      <Packaging>Package</Packaging>
+      <PackagingType>YOUR_PACKAGING</PackagingType>
+      <PackageSequenceNumber>1</PackageSequenceNumber>
+      <PackageCount>1</PackageCount>
+    <ShipperAddress>
+      <City>JEFFERSONVILLE</City>
+      <StateOrProvinceCode>IN</StateOrProvinceCode>
+      <CountryCode>US</CountryCode>
+      <Residential>false</Residential>
+    </ShipperAddress>
+    <OriginLocationAddress>
+      <City>JEFFERSONVILLE</City>
+      <StateOrProvinceCode>IN</StateOrProvinceCode>
+      <CountryCode>US</CountryCode>
+      <Residential>false</Residential>
+    </OriginLocationAddress>
+    <ShipTimestamp>2018-08-15T00:00:00</ShipTimestamp>
+    <DestinationAddress>
+      <City>Miami</City>
+      <StateOrProvinceCode>FL</StateOrProvinceCode>
+      <CountryCode>US</CountryCode>
+      <Residential>false</Residential>
+    </DestinationAddress>
+    <SignatureProofOfDeliveryAvailable>false</SignatureProofOfDeliveryAvailable>
+    <RedirectToHoldEligibility>INELIGIBLE</RedirectToHoldEligibility>
+    <Events>
+      <Timestamp>2013-12-30T13:24:00-05:00</Timestamp>
+      <EventType>OC</EventType>
+      <EventDescription>Shipment information sent to FedEx</EventDescription>
+      <Address>
+        <PostalCode>471307761</PostalCode>
+        <CountryCode>US</CountryCode>
+        <Residential>false</Residential>
+      </Address>
+      <ArrivalLocation>CUSTOMER</ArrivalLocation>
+    </Events>
+  </TrackDetails>
+</TrackReply>

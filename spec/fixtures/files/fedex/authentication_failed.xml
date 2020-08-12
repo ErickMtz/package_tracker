@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<v6:TrackReply xmlns:v6="http://fedex.com/ws/track/v6">
+  <v6:HighestSeverity>ERROR</v6:HighestSeverity>
+  <v6:Notifications>
+    <v6:Severity>ERROR</v6:Severity>
+    <v6:Source>prof</v6:Source>
+    <v6:Code>1000</v6:Code>
+    <v6:Message>Authentication Failed</v6:Message>
+  </v6:Notifications>
+  <v6:Version>
+    <v6:ServiceId>trck</v6:ServiceId>
+    <v6:Major>6</v6:Major>
+    <v6:Intermediate>0</v6:Intermediate>
+    <v6:Minor>0</v6:Minor>
+  </v6:Version>
+</v6:TrackReply>
